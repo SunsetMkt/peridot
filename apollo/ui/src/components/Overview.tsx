@@ -281,7 +281,7 @@ export const Overview = () => {
                 setFilterProduct(e.currentTarget.value as string);
               }}
             >
-              {['Rocky Linux 8', 'Rocky Linux 9'].map((s) => (
+              {['Rocky Linux 8', 'Rocky Linux 9', 'Rocky Linux 10'].map((s) => (
                 <option key={s} value={s}>{s}</option>
               ))}
             </Select>
